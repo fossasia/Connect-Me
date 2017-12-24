@@ -1,2 +1,2 @@
 # ConFASIA
-Connect with @fossasia :heart:
+> A Chrome Extension for connecting with @fossasia :heart:
