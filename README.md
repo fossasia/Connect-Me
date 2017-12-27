@@ -13,6 +13,11 @@
 
 #### Features : 
 
+* Helps the User to **Star all the FOSSASIA, OpnTec and the Sister Project Repositories** *(e.g. loklak, fashiontec, yacy, phimpme, MeshCon, susiai, meilix)* :tada::tada:
+* Helps the User to **Follow core members and founders of FOSSASIA community** *(e.g. @mariobehling, @hpdang, @Orbiter, @pepebecker etc...)* :fire::fire:
+* Helps the User to **Easily become a member of the FOSSASIA Community** :blush:
+* Helps the User to **Explore the FOSSASIA Projects** :sparkles:
+* Helps the User to **Connect with FOSSASIA over Twitter** :heart:
 
 
 
