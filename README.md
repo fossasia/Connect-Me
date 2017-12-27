@@ -9,6 +9,9 @@
 
 ### StarFOSS (beta)
 
+![icon](https://user-images.githubusercontent.com/5800726/34366221-d6332962-eabe-11e7-8379-7044206e9c30.png)
+
+#### Features : 
 
 
 
