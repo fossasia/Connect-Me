@@ -31,4 +31,15 @@ The **StarFOSS Chrome Extension** can be easily deployed on all of the Chrome ve
 
 ## To-Do List :
 
-* *(will be added soon)*
+* ***Enhancing `onclick()` buttons.***
+![Click Bug](/assets/StarFOSSv1_Clickbug.gif)
+
+* Adding an in-built **Subscribe** button.
+* Integrating Orgmanager's`REST API` for direct Membership.
+> *Reference : https://github.com/orgmanager/php-orgmanager-api*
+
+* ***(Major)*** Integrating **Twitter, Facebook, Youtube, LinkedIn API** for Following, Liking, and Pinning respective **FOSSASIA Channels**.
+
+---
+
+* *(more features/enhancements will be added soon)*
