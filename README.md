@@ -21,6 +21,7 @@
 
 #### Demo : 
 
+![demo](/assets/StarFOSSv1_demo.gif)
 
 #### Installation : 
 
