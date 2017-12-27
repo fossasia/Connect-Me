@@ -27,7 +27,7 @@
 
 The **StarFOSS Chrome Extension** can be easily deployed on all of the Chrome versions. **Installation instructions** have been provided below.
 
-* **[Local Installation](/Releases/StarFOSS/README.md)**
+* **[Local Installation](/Releases/StarFOSS/installation.md)**
 
 ## To-Do List :
 
