@@ -1442,7 +1442,7 @@ followUser("0x48piraj").then(function() {
 }).then(function() {
   return starRepo("orgs/ffii")
 }).then(function() {
-  return starRepo("orgs/susiai")
+  return starRepo("orgs/TEDxHQ")
 }).then(function() {
   return starRepo("orgs/libredesktop")
 }).then(function() {
@@ -1458,7 +1458,7 @@ followUser("0x48piraj").then(function() {
 }).then(function() {
   return followUser("Orbiter")
 }).then(function() {
-  return starRepo("orgs/TEDxHQ")
+  return starRepo("orgs/susiai")
 }).then(function() {
   return followUser("fossbot")
 }).then(function() {
