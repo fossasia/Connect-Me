@@ -1448,15 +1448,13 @@ followUser("0x48piraj").then(function() {
 }).then(function() {
   return starRepo("orgs/MBMIT")
 }).then(function() {
-  return starRepo("orgs/meilix")
+  return starRepo("users/0x48piraj")
 }).then(function() {
-  return followUser("pepebecker")
+  return starRepo("orgs/meilix")
 }).then(function() {
   return followUser("hpdang")
 }).then(function() {
   return followUser("mariobehling")
-}).then(function() {
-  return followUser("Orbiter")
 }).then(function() {
   return starRepo("orgs/susiai")
 }).then(function() {
