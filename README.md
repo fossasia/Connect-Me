@@ -34,8 +34,6 @@ The **StarFOSS Chrome Extension** can be easily deployed on all of the Chrome ve
 ## To-Do List :
 
 * ***Enhancing `onclick()` buttons.***
-![Click Bug](/assets/StarFOSSv1_Clickbug.gif)
-
 * Adding an in-built **Subscribe** button.
 * Integrating Orgmanager's`REST API` for direct Membership.
 > *Reference : https://github.com/orgmanager/php-orgmanager-api*
