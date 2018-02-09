@@ -1,5 +1,5 @@
 
-# Insall StarFOSS :
+# Install StarFOSS :
 
 * Clone this repository - `git clone https://github.com/0x48piraj/ConFASIA.git`
 * Hit `chrome://extensions/` into the URL bar.
