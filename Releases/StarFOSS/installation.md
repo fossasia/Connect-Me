@@ -2,13 +2,22 @@
 # Install StarFOSS :
 
 * Clone this repository - `git clone https://github.com/0x48piraj/ConFASIA.git`
+
+### For Chrome
+
 * Hit `chrome://extensions/` into the URL bar.
 * Enable **Developer Mode**
 * Click on **Load unpacked extension**
 * Navigate and select the directory having the **StarFOSS** code.
 * Click on **Ok**
-### Voila !! :tada:
 
+### For Firefox
+
+* Visit `about:debugging` from the URL bar.
+* Click on `Load Temporary Add-on`
+* Select `manifest.json` from `Releases/StarFOSS/v1/firefox/`
+
+### Voila !! :tada:
 ---
 
 ## Interactive How-To :

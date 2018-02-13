@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "StarFOSS (beta)",
+  "description": "Stars all FOSSASIA repositories. Each and every one!",
+  "homepage_url": "https://github.com/fossasia/Connect-Me",
+  "version": "1.0",
+
+  "icons": {
+    "16": "icons/icon16.png",
+	  "128": "icons/icon128.png"
+  },
+  
+  "permissions": ["tabs", "<all_urls>"],
+
+  "browser_action": {
+    "default_icon": "icons/icon16.png",
+    "default_popup": "popup/index.html",
+    "default_title": "StarFOSS (beta)"
+  }
+}
