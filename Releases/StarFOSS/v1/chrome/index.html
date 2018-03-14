@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700);
+<head>
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700);
 
 /*
 .fonts {
@@ -65,9 +65,9 @@ a:visited {
   padding-top: 1em;
   margin-top: 1em;
   border-top: 
-    solid
-    1px
-    #CCC;
+  solid
+  1px
+  #CCC;
 }
 
 a.button {
@@ -289,27 +289,39 @@ a.button {
   top: 40px;
 }
 
-    </style>
+</style>
 <link media="all" href="style.css" type="text/css" rel="stylesheet" />
-  </head>
+</head>
 <body>
-    <a href="https://fossasia.org/" target="_blank" title="About FOSSASIA" class="button btnPush btnLightBlue">About</a> <!--onClick="about(); return false;"-->
-    <a href="https://github.com/fossasia" target="_blank" title="FOSSASIA Projects on Github" class="button btnBorder btnBlueGreen">Projects</a>
-    <a href="https://twitter.com/fossasia" target="_blank" title="Connect with FOSSASIA" class="button btnBorder btnPurple">Connect!</a>
-    <a href="https://orgmanager.miguelpiedrafita.com/join/6295529" target="_blank" title="Join the FOSSASIA Family!" class="button btnBorder btnPurple">Join!</a>
-    <a href="https://github.com/0x48piraj" target="_blank" title="Creator of this Extension" class="button btnSlide btnOrange">
-      <span class="top" data-content="Slide">Piyush Raj</span>
-      <span class="bottom" data-content="Slide"><strong>0x48piraj</strong></span>
-    </a>
+  <a href="https://fossasia.org/" target="_blank" title="About FOSSASIA" class="button btnPush btnLightBlue">About</a> <!--onClick="about(); return false;"-->
+  <a href="https://github.com/fossasia" target="_blank" title="FOSSASIA Projects on Github" class="button btnBorder btnBlueGreen">Projects</a>
+  <a href="https://twitter.com/fossasia" target="_blank" title="Connect with FOSSASIA" class="button btnBorder btnPurple">Connect!</a>
+  <a href="https://orgmanager.miguelpiedrafita.com/join/6295529" target="_blank" title="Join the FOSSASIA Family!" class="button btnBorder btnPurple">Join!</a>
+  <a href="https://github.com/0x48piraj" target="_blank" title="Creator of this Extension" class="button btnSlide btnOrange">
+    <span class="top" data-content="Slide">Piyush Raj</span>
+    <span class="bottom" data-content="Slide"><strong>0x48piraj</strong></span>
+  </a>
+  <div class="wrapper">
+    <form target="_blank"  action="https://freelayers.net/subscribe" method="POST" accept-charset="utf-8">
+      <div>
+        <span>Subscribe to stay informed</span><br>
+        <input placeholder="Enter your name" type="text" name="name" id="name"><br>
+        <input placeholder="Enter your email address" type="text" name="email" id="email"><br>
+        <input value="Subscribe" type="submit" name="submit" id="submit" class="button btnSlide btnPurple">
+        <input type="hidden" name="list" value="A8fchTRvBw2wap1ojIfjyQ">
+      </div>
+    </div>
+  </form>
+</div>
 <div class="wrapper">
-<button id="clickme">Let's Star!</button></div>
-<script type="text/javascript" src="runSwitch.js"></script>
-<script>
+  <button id="clickme">Let's Star!</button></div>
+  <script type="text/javascript" src="runSwitch.js"></script>
+  <script>
 //function about() {
-//	chrome.browserAction.onClicked.addListener(function(activeTab){
-//  		var newURL = "http://stackoverflow.com/";
-//  		chrome.tabs.create({ url: newURL });
-//	});
+//  chrome.browserAction.onClicked.addListener(function(activeTab){
+//      var newURL = "http://stackoverflow.com/";
+//      chrome.tabs.create({ url: newURL });
+//  });
 //}
 </script>
 </body>
