@@ -17,7 +17,7 @@
         <img src="../assets/fossasia.png" alt="FOSSASIA Logo">
       </a>
     </div>
-  
+
     <!-- JOIN BUTTON -->
     <div class="row mb-4">
       <a class="btn btn-danger hvr-icon-rotate connect-button mx-auto d-block" href="https://orgmanager.miguelpiedrafita.com/join/6295529" target="_blank">
@@ -38,13 +38,46 @@
         </button>
     </div>
 
+    <!-- SUBSCRIBE BUTTON -->
+    <div class="row mb-4">
+        <button type="button" name="action" class="btn btn-danger connect-button mx-auto d-block" id="subscribe">
+          <strong style="color: whitesmoke">Subscribe</strong>
+        </button>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <form action="https://freelayers.net/subscribe" method="post" class="form-horizontal">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Name:</label>
+            <div class="col-sm-10">
+              <input type="name" class="form-control" id="name" placeholder="Enter name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default" onclick="return validate()">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
     <!-- SOCIAL LINKS -->
       <div class="row join-fossasia my-1 mx-auto d-block">
         <div class="col-sm-6 footer">
           <a class="hvr-icon-bob" href="https://twitter.com/fossasia" target="_blank" title="Connect with FOSSASIA" style="margin-right: 2em;">
             <img class="hvr-icon" src="../assets/twitter.png" alt="twitter" width="28" height="28">
           </a>
-        
+
           <a class="hvr-icon-bob" href="https://github.com/fossasia" target="_blank" title="FOSSASIA Projects on Github">
             <img class="hvr-icon" src="../assets/github.png" alt="github" width="28" height="28">
           </a>
@@ -63,7 +96,7 @@
 
     <script type="text/javascript" src="runSwitch.js"></script>
     <script src="../alertify.js"></script>
-
+    <script src="script.js"></script>
     <!-- <script>
     function about() {
     	chrome.browserAction.onClicked.addListener(function(activeTab){
