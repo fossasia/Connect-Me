@@ -29,7 +29,7 @@
 
 The **StarFOSS Chrome and Firefox Extension** can be easily deployed on all of the Chrome and Firefox versions. **Installation instructions** have been provided below.
 
-* **[Local Installation](/Releases/StarFOSS/installation.md)**
+* **[Local Installation](/Releases/StarFOSS/Installation.md)**
 
 ## TODO :
 
