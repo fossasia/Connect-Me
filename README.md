@@ -15,8 +15,8 @@
 
 #### Features : 
 
-* Helps the User to **Star all the FOSSASIA, OpnTec and the Sister Project Repositories** *(e.g. loklak, fashiontec, yacy, phimpme, MeshCon, susiai, meilix)* :tada::tada:
-* Helps the User to **Follow core members and founders of FOSSASIA community** *(e.g. @mariobehling, @hpdang, @Orbiter, @pepebecker etc...)* :fire::fire:
+* Helps the User to **Star all the FOSSASIA, OpnTec and the Sister Project Repositories** :tada::tada:
+* Helps the User to **Follow core members and founders of FOSSASIA community** :fire::fire:
 * Helps the User to **Easily become a member of the FOSSASIA Community** :blush:
 * Helps the User to **Explore the FOSSASIA Projects** :sparkles:
 * Helps the User to **Connect with FOSSASIA over Twitter** :heart:
@@ -33,7 +33,7 @@ The **StarFOSS Chrome and Firefox Extension** can be easily deployed on all of t
 
 ## TODO :
 
-- [ ] Adding an in-built **Subscribe** button.
+- [ ] Adding an in-built **Subscribe** button. [W.I.P]
 - [ ] Integrating Orgmanager's`REST API` for direct Membership.
 > *Reference : https://github.com/orgmanager/php-orgmanager-api*
 
@@ -41,7 +41,7 @@ The **StarFOSS Chrome and Firefox Extension** can be easily deployed on all of t
 
 
 ## Maintainers
-The project is maintained by
+The project is maintained by :
 - Piyush Raj ([@0x48piraj](https://github.com/0x48piraj))
 - Mario Behling ([@mariobehling](http://github.com/mariobehling))
 
