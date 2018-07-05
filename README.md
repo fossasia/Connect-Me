@@ -29,14 +29,12 @@
 
 The **StarFOSS Chrome and Firefox Extension** can be easily deployed on all of the Chrome and Firefox versions. **Installation instructions** have been provided below.
 
-* **[Local Installation](/Releases/StarFOSS/Installation.md)**
+* **[Local Installation](/Releases/Installation.md)**
 
 ## TODO :
 
-- [ ] Adding an in-built **Subscribe** button. [W.I.P]
-- [ ] Integrating Orgmanager's`REST API` for direct Membership.
-> *Reference : https://github.com/orgmanager/php-orgmanager-api*
-
+- [ ] Adding an in-built **Subscribe** button. [Issue #5](https://github.com/fossasia/Connect-Me/issues/5)
+- [ ] Integrating Orgmanager's`REST API` for direct Membership. [Issue #4](https://github.com/fossasia/Connect-Me/issues/4)
 - [ ] Integrating **Twitter, Facebook, Youtube, LinkedIn API** for Following, Liking, and Pinning respective **FOSSASIA Channels**.
 
 
