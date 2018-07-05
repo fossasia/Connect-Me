@@ -31,9 +31,8 @@ The **StarFOSS Chrome and Firefox Extension** can be easily deployed on all of t
 
 * **[Local Installation](/Releases/StarFOSS/installation.md)**
 
-## To-Do List :
+## TODO :
 
-- [x] ***Enhancing `onclick()` buttons.***
 - [ ] Adding an in-built **Subscribe** button.
 - [ ] Integrating Orgmanager's`REST API` for direct Membership.
 > *Reference : https://github.com/orgmanager/php-orgmanager-api*
