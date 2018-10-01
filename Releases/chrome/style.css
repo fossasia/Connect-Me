@@ -4,19 +4,23 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 1em;
+  min-width: 250px;
 }
 
-.container-fluid {
-  background: url('assets/natural_paper.png') fixed no-repeat;
-  background-size: cover;
-}
 
 #logo {
-  margin-bottom: 10px;
+  
   transition: transform 0.2s ease-out;
 }
 
+#logo_img{
+  margin-top: -3em;
+  padding: 3em;
+  display: block;
+  width: 100%;
+  height: auto;
+}
 #logo:hover {
   transform: scale(1.02, 1.02);
 }
@@ -26,7 +30,21 @@ body {
   margin-left: 35%;
   padding: 0;
 }
+.center {
+  padding-top: 1em;
+  padding-left: 1em;
+  margin: auto;
+  width: 100%;
 
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; 
+}
 /* 
 #################################
 Icon Float Away 
