@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- <link type="text/css" rel="stylesheet" href="materialize.min.css"> -->
+  <link rel="stylesheet" href="../bootstrap.min.css" />
+  <link media="all" href="style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body class="container-fluid">
+
+    <!-- FOSSASIA LOGO TOP -->
+    <div class="row py-1" id="logo">
+      <a href="https://fossasia.org/" target="_blank" title="Click to explore FOSSASIA">
+        <img src="../assets/fossasia.png" alt="FOSSASIA Logo">
+      </a>
+    </div>
+  
+    <!-- JOIN BUTTON -->
+    <div class="row mb-4">
+      <a class="btn btn-danger hvr-icon-rotate connect-button mx-auto d-block" href="https://orgmanager.miguelpiedrafita.com/join/6295529" target="_blank">
+        <strong style="color: whitesmoke">Join</strong>
+        <span>
+          <img class="hvr-icon" src="../assets/join.png" alt="Join" width="22" height="20">
+        </span>
+      </a>
+    </div>
+
+    <!-- STAR BUTTON -->
+    <div class="row mb-4">
+        <button type="submit" name="action" class="btn btn-danger hvr-icon-float-away connect-button mx-auto d-block" id="clickme">
+          <strong style="color: whitesmoke">Star</strong>
+          <span>
+            <img class="hvr-icon" src="../assets/star.png" width="24" height="24" alt="star">
+          </span>
+        </button>
+    </div>
+
+    <!-- SOCIAL LINKS -->
+      <div class="row join-fossasia my-1 mx-auto d-block">
+        <div class="col-sm-6 footer">
+          <a class="hvr-icon-bob" href="https://twitter.com/fossasia" target="_blank" title="Connect with FOSSASIA" style="margin-right: 2em;">
+            <img class="hvr-icon" src="../assets/twitter.png" alt="twitter" width="28" height="28">
+          </a>
+        
+          <a class="hvr-icon-bob" href="https://github.com/fossasia" target="_blank" title="FOSSASIA Projects on Github">
+            <img class="hvr-icon" src="../assets/github.png" alt="github" width="28" height="28">
+          </a>
+        </div>
+      </div>
+
+      <!-- CREDITS -->
+      <div class="mt-3">
+        <p>
+          <em>Creator of this Extension:</em>
+          <a href="https://github.com/0x48piraj" target="_blank" style="text-decoration: none">
+            <kbd>Piyush Raj</kbd>
+          </a>
+      </p>
+      </div>
+
+    <script type="text/javascript" src="runSwitch.js"></script>
+    <script src="../alertify.js"></script>
+
+    <!-- <script>
+    function about() {
+    	chrome.browserAction.onClicked.addListener(function(activeTab){
+     		var newURL = "http://stackoverflow.com/";
+     		chrome.tabs.create({ url: newURL });
+    	});
+    }
+    </script> -->
+</body>
+</html>

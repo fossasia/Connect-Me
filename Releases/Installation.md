@@ -1,7 +1,7 @@
 
 # Install StarFOSS :
 
-* Clone this repository - `git clone https://github.com/0x48piraj/ConFASIA.git`
+* Clone this repository - `git clone https://github.com/fossasia/Connect-Me.git`
 
 ### For Chrome
 

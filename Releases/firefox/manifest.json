@@ -12,6 +12,14 @@
   },
   
   "permissions": ["tabs", "<all_urls>"],
+  "web_accessible_resources": [
+    "assets/fossasia.png",
+    "assets/github.png",
+    "assets/twitter.png",
+    "assets/join.png",
+    "assets/star.png",
+    "assets/natural_paper.png"
+  ],
 
   "browser_action": {
     "default_icon": "icons/icon16.png",
