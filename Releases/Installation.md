@@ -1,5 +1,5 @@
 
-# Install StarFOSS :
+# Install Connect-Me :
 
 * Clone this repository - `git clone https://github.com/fossasia/Connect-Me.git`
 
@@ -8,19 +8,23 @@
 * Hit `chrome://extensions/` into the URL bar.
 * Enable **Developer Mode**
 * Click on **Load unpacked extension**
-* Navigate and select the directory having the **StarFOSS** code.
+* Navigate and select the directory having the **Connect-Me** code.
+* Now, head to **Releases** and select **chrome**
 * Click on **Ok**
 
 ### For Firefox
 
 * Visit `about:debugging` from the URL bar.
 * Click on `Load Temporary Add-on`
-* Select `manifest.json` from `Releases/StarFOSS/v1/firefox/`
+* Select `manifest.json` from `Releases/firefox/`
 
 ### Voila !! :tada:
 ---
 
 ## Interactive How-To :
 
+### For Chrome
+![Created by 0x48piraj](https://user-images.githubusercontent.com/26689027/46298536-f2090100-c5bc-11e8-95bf-95995e3e6d6b.png)
 
-![Created by 0x48piraj](https://user-images.githubusercontent.com/5800726/34394354-9bf4c7b8-eb7e-11e7-94dc-c039bd554d16.png)
+### For Firefox
+![Created by 0x48piraj](https://user-images.githubusercontent.com/26689027/46313795-673cfc00-c5e6-11e8-9809-32cd1616d0ad.png)
