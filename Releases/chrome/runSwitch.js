@@ -2,7 +2,7 @@ function runSwitchjs() {
   alertify
   .okBtn("Accept")
   .cancelBtn("Deny")
-  .confirm("After clicking on 'Ok', Starring will start, leave the tab open, we'll let you know after the starring process. Feel free to jump on another tabs :)", function (ev) {
+  .confirm("After clicking on 'Accept', Starring will start, leave the tab open, we'll let you know after the starring process. Feel free to jump on another tabs :)", function (ev) {
       ev.preventDefault();
       chrome.tabs.executeScript({
         file: 'star.user.js'
