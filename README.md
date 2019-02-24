@@ -20,6 +20,11 @@
 * Helps the User to **Easily become a member of the FOSSASIA Community** :blush:
 * Helps the User to **Explore the FOSSASIA Projects** :sparkles:
 * Helps the User to **Connect with FOSSASIA over Twitter** :heart:
+* Helps the User to **Connect with FOSSASIA over Facebook** :heart:
+* Helps the User to **Connect with FOSSASIA over LinkedIn** :heart:
+* Helps the User to **Connect with FOSSASIA over Youtube** :heart:
+
+
 
 #### Demo : 
 
