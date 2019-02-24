@@ -1,4 +1,4 @@
-# Connect-Me
+# Connect Me
 
 #### ConFASIA = Connect + FOSSASIA :fire:
 
