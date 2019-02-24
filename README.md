@@ -1,8 +1,8 @@
-# Connect-Me
+# Connect Me
 
 #### ConFASIA = Connect + FOSSASIA :fire:
 
-![image](https://user-images.githubusercontent.com/5800726/34326440-f342bf66-e8d1-11e7-90e0-ea611a07f117.png)
+![image](https://user-images.githubusercontent.com/25483260/40270672-09ea9dd8-5baf-11e8-88ac-9e75ee0e0e8d.png)
 
 > A **Chrome and Firefox Extension** for connecting with **@fossasia** :rocket:
 
@@ -20,6 +20,11 @@
 * Helps the User to **Easily become a member of the FOSSASIA Community** :blush:
 * Helps the User to **Explore the FOSSASIA Projects** :sparkles:
 * Helps the User to **Connect with FOSSASIA over Twitter** :heart:
+* Helps the User to **Connect with FOSSASIA over Facebook** :heart:
+* Helps the User to **Connect with FOSSASIA over LinkedIn** :heart:
+* Helps the User to **Connect with FOSSASIA over Youtube** :heart:
+
+
 
 #### Demo : 
 
@@ -30,6 +35,10 @@
 The **StarFOSS Chrome and Firefox Extension** can be easily deployed on all of the Chrome and Firefox versions. **Installation instructions** have been provided below.
 
 * **[Local Installation](/Releases/Installation.md)**
+
+#### Interactive How-To for Firefox :
+
+![Created by akshat157](https://user-images.githubusercontent.com/34815179/46293510-5de56c80-c5b1-11e8-8975-95d314383ca2.png)
 
 ## TODO :
 
