@@ -180,3 +180,25 @@ Icon Bob
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
+
+
+/* classes for subscribe fields and button */
+.newsletter-name {
+  margin-bottom: 5px;
+}
+.newsletter-email{
+  margin-bottom: 5px;
+}
+.btn{
+  margin:auto;
+  display:block;
+  background: #587286;
+  color:#fff;
+}
+.btn:hover{
+  background: #3B5C76;
+}
+
+.newsletter-submit{
+  margin-bottom: 10px;
+}
