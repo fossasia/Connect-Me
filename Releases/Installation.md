@@ -15,7 +15,7 @@
 
 * Visit `about:debugging` from the URL bar.
 * Click on `Load Temporary Add-on`
-* Select `manifest.json` from `Releases/StarFOSS/v1/firefox/`
+* Select `manifest.json` from `Releases/firefox/`
 
 ### Voila !! :tada:
 ---
