@@ -1,10 +1,11 @@
 
 **I'm submitting a ...**
-- [ ] bug report
-- [ ] feature request
+<!-- Put an x between the [] on what you are submitting -->
+- [] bug report
+- [] feature request
 
 **Description :**
-<!-- Describe your feature -->
+<!-- Describe your feature/bug. -->
 
 **Current behaviour:**
 <!-- How the bug manifests. -->
