@@ -21,15 +21,19 @@ body {
   transform: scale(1.02, 1.02);
 }
 
+#social{
+  margin-left: 12px;
+}
+
 .footer {
   display: block;
   margin-left: 35%;
   padding: 0;
 }
 
-/* 
+/*
 #################################
-Icon Float Away 
+Icon Float Away
 #################################
 */
 @-webkit-keyframes hvr-icon-float-away {
