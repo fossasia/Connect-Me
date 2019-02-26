@@ -21,8 +21,24 @@ body {
   transform: scale(1.02, 1.02);
 }
 
-#social{
-  margin-left: 12px;
+#twitter{
+  margin-left: 0.8em;
+}
+
+#github{
+  margin-left: 0.7em;
+}
+
+#youtube{
+  margin-left: 0.7em;
+}
+
+#facebook{
+  margin-left: 0.7em;
+}
+
+#linkedin{
+  margin-left: 0.7em;
 }
 
 .footer {
