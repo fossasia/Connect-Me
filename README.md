@@ -2,7 +2,7 @@
 
 #### ConFASIA = Connect + FOSSASIA :fire:
 
-![image](https://user-images.githubusercontent.com/25483260/40270672-09ea9dd8-5baf-11e8-88ac-9e75ee0e0e8d.png)
+![image](https://user-images.githubusercontent.com/33548141/53437155-e104d480-3a22-11e9-8b28-f0eb71d9e943.png)
 
 > A **Chrome and Firefox Extension** for connecting with **@fossasia** :rocket:
 
@@ -13,7 +13,7 @@
 
 ![icon](https://user-images.githubusercontent.com/5800726/34366221-d6332962-eabe-11e7-8379-7044206e9c30.png)
 
-#### Features : 
+#### Features :
 
 * Helps the User to **Star all the FOSSASIA, OpnTec and the Sister Project Repositories** :tada::tada:
 * Helps the User to **Follow core members and founders of FOSSASIA community** :fire::fire:
@@ -26,11 +26,11 @@
 
 
 
-#### Demo : 
+#### Demo :
 
 ![demo](/assets/StarFOSSv1_demo.gif)
 
-#### Installation : 
+#### Installation :
 
 The **StarFOSS Chrome and Firefox Extension** can be easily deployed on all of the Chrome and Firefox versions. **Installation instructions** have been provided below.
 
@@ -59,7 +59,7 @@ The project is maintained by :
 <tr>
 <td>
      <img src="https://avatars3.githubusercontent.com/u/5800726?s=250&v=4" />
-     
+
              Piyush Raj
 
 <p align="center">
@@ -68,5 +68,5 @@ The project is maintained by :
 <a href = "https://www.linkedin.com/in/0x48piraj/"><img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/></a>
 </p>
 </td>
-</tr> 
+</tr>
   </table>
