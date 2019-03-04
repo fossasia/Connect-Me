@@ -10,12 +10,15 @@
     "16": "icons/icon16.png",
 	  "128": "icons/icon128.png"
   },
-  
+
   "permissions": ["tabs", "<all_urls>"],
   "web_accessible_resources": [
     "assets/fossasia.png",
     "assets/github.png",
     "assets/twitter.png",
+    "assets/youtube.png",
+    "assets/facebook.png",
+    "assets/linkedin.png",
     "assets/join.png",
     "assets/star.png",
     "assets/natural_paper.png"

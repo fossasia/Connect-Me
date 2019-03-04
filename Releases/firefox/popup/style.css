@@ -22,15 +22,34 @@ body {
   transform: scale(1.02, 1.02);
 }
 
+#twitter{
+  margin-left: 1.5em;
+}
+
+#github{
+  margin-left: 1em;
+}
+
+#youtube{
+  margin-left: 1em;
+}
+
+#facebook{
+  margin-left: 1em;
+}
+
+#linkedin{
+  margin-left: 1em;
+}
 .footer {
   display: block;
   margin-left: 35%;
   padding: 0;
 }
 
-/* 
+/*
 #################################
-Icon Float Away 
+Icon Float Away
 #################################
 */
 @-webkit-keyframes hvr-icon-float-away {
