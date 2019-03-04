@@ -9,7 +9,7 @@
     "16": "icon.png",
 	  "128": "icon.png"
   },
-  
+
   "background": [ { "js": "star.user.js" } ],
   "permissions": ["tabs", "<all_urls>"],
 
@@ -17,6 +17,9 @@
     "assets/fossasia.png",
     "assets/github.png",
     "assets/twitter.png",
+    "assets/youtube.png",
+    "assets/facebook.png",
+    "assets/linkedin.png",
     "assets/join.png",
     "assets/star.png",
     "assets/natural_paper.png"
