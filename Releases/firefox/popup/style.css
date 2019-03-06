@@ -41,11 +41,7 @@ body {
 #linkedin{
   margin-left: 1em;
 }
-.footer {
-  display: block;
-  margin-left: 35%;
-  padding: 0;
-}
+
 
 /*
 #################################
@@ -199,4 +195,12 @@ Icon Bob
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+}
+.fa-paper-plane:before {
+    content: "\f1d8";
+    color: #ffb362;
+  animation-iteration-count: infinite;
+  transform: translateZ(0);
+  transition-duration: 0.3s;
+      transition-property: transform;
 }
