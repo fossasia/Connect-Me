@@ -101,7 +101,7 @@ Icon Float Away
 Icon Rotate
 #################################
 */
-.hvr-icon-rotate {
+.hvr-icon-rotate .fa-paper-plane {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -110,7 +110,7 @@ Icon Rotate
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-.hvr-icon-rotate .hvr-icon {
+.hvr-icon-rotate .hvr-icon .fa-paper-plane {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.3s;
@@ -120,7 +120,7 @@ Icon Rotate
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-icon-rotate:hover .hvr-icon, .hvr-icon-rotate:focus .hvr-icon, .hvr-icon-rotate:active .hvr-icon {
+.hvr-icon-rotate:hover .hvr-icon, .hvr-icon-rotate:focus .hvr-icon, .hvr-icon-rotate:active .hvr-icon .fa-paper-plane{
   -webkit-transform: rotate(20deg);
   transform: rotate(20deg);
 }
@@ -199,4 +199,12 @@ Icon Bob
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+}
+.fa-paper-plane:before {
+    content: "\f1d8";
+    color: #ffb362;
+  animation-iteration-count: infinite;
+  transform: translateZ(0);
+  transition-duration: 0.3s;
+      transition-property: transform;
 }
