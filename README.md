@@ -23,7 +23,7 @@
 * Helps the User to **Connect with FOSSASIA over Twitter** :heart:
 * Helps the User to **Connect with FOSSASIA over Facebook** :heart:
 * Helps the User to **Connect with FOSSASIA over LinkedIn** :heart:
-* Helps the User to **Connect with FOSSASIA over Youtube** :heart
+* Helps the User to **Connect with FOSSASIA over Youtube** :heart:
 * Helps the User to **Connect with FOSSASIA over Instagram** :heart:
 
 
