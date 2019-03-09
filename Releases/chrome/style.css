@@ -72,15 +72,35 @@ Icon Float Away
     transform: translateY(-1em);
   }
 }
+@-webkit-keyframes hvr-icon-subs {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(1em,-1em);
+    transform: translate(1em,-1em);
+  }
+}
+@keyframes hvr-icon-subs {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(1em,-1em);
+    transform: translate(1em,-1em);
+  }
+}
 /* Icon Float Away */
-.hvr-icon-float-away {
+.hvr-icon-float-away , .hvr-icon-subs {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.hvr-icon-float-away .hvr-icon {
+.hvr-icon-float-away .hvr-icon , .hvr-icon-subs .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-animation-duration: 0.5s;
@@ -94,6 +114,12 @@ Icon Float Away
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
 }
+.hvr-icon-subs:hover .hvr-icon, .hvr-icon-subs:focus .hvr-icon, .hvr-icon-subs:active .hvr-icon {
+  -webkit-animation-name: hvr-icon-subs;
+  animation-name: hvr-icon-subs;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
 
 
 /*
@@ -101,7 +127,7 @@ Icon Float Away
 Icon Rotate
 #################################
 */
-.hvr-icon-rotate .fa-paper-plane {
+.hvr-icon-rotate {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -110,7 +136,7 @@ Icon Rotate
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-.hvr-icon-rotate .hvr-icon .fa-paper-plane {
+.hvr-icon-rotate .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.3s;
@@ -120,7 +146,7 @@ Icon Rotate
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-icon-rotate:hover .hvr-icon, .hvr-icon-rotate:focus .hvr-icon, .hvr-icon-rotate:active .hvr-icon .fa-paper-plane{
+.hvr-icon-rotate:hover .hvr-icon, .hvr-icon-rotate:focus .hvr-icon, .hvr-icon-rotate:active .hvr-icon {
   -webkit-transform: rotate(20deg);
   transform: rotate(20deg);
 }
