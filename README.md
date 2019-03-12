@@ -2,7 +2,8 @@
 
 #### ConFASIA = Connect + FOSSASIA :fire:
 
-![image](https://user-images.githubusercontent.com/33548141/53437155-e104d480-3a22-11e9-8b28-f0eb71d9e943.png)
+![fossasia](https://user-images.githubusercontent.com/25322672/54020775-99194680-41b4-11e9-818d-0e6071bf998d.jpg)
+
 
 > A **Chrome and Firefox Extension** for connecting with **@fossasia** :rocket:
 
@@ -23,6 +24,7 @@
 * Helps the User to **Connect with FOSSASIA over Facebook** :heart:
 * Helps the User to **Connect with FOSSASIA over LinkedIn** :heart:
 * Helps the User to **Connect with FOSSASIA over Youtube** :heart:
+* Helps the User to **Connect with FOSSASIA over Instagram** :heart:
 
 
 
