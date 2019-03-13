@@ -55,6 +55,21 @@ The project is maintained by :
 - Mario Behling ([@mariobehling](http://github.com/mariobehling))
 
 ---
+## Social Networks
+
+- Twitter: https://twitter.com/fossasia
+
+- Facebook: https://www.facebook.com/fossasia
+
+- Google+: https://plus.google.com/u/0/+FOSSASIAorg
+
+- Flickr: https://www.flickr.com/photos/fossasia
+
+- YouTube: https://youtube.com/fossasiaorg
+
+- LinkedIn Page: https://www.linkedin.com/company/2982840/
+
+- LinkedIn Group: https://www.linkedin.com/groups/3762811/profile
 
 ## Developers
 <table>
