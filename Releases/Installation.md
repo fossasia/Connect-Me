@@ -27,4 +27,4 @@
 ![Created by 0x48piraj](https://user-images.githubusercontent.com/26689027/46298536-f2090100-c5bc-11e8-95bf-95995e3e6d6b.png)
 
 ### For Firefox
-![Ported by realslimshanky](https://user-images.githubusercontent.com/26689027/46313795-673cfc00-c5e6-11e8-9809-32cd1616d0ad.png)
+![Created by akshat157](https://user-images.githubusercontent.com/34815179/46293510-5de56c80-c5b1-11e8-8975-95d314383ca2.png)

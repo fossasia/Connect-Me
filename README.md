@@ -36,10 +36,6 @@ The **StarFOSS Chrome and Firefox Extension** can be easily deployed on all of t
 
 * **[Local Installation](/Releases/Installation.md)**
 
-#### Interactive How-To for Firefox :
-
-![Created by akshat157](https://user-images.githubusercontent.com/34815179/46293510-5de56c80-c5b1-11e8-8975-95d314383ca2.png)
-
 ## TODO :
 
 - [ ] Adding an in-built **Subscribe** button. [Issue #5](https://github.com/fossasia/Connect-Me/issues/5)
