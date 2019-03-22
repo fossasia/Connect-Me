@@ -3,8 +3,10 @@
 }
 
 body {
+  
   margin: 0;
   padding: 0;
+  min-width:340px;
 }
 
 .container-fluid {
@@ -26,6 +28,9 @@ body {
 }
 
 #github{
+  margin-left: 0.7em;
+}
+#gitter{
   margin-left: 0.7em;
 }
 
