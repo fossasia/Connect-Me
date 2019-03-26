@@ -16,7 +16,6 @@ body {
 
 #logo {
   margin-bottom: 10px;
-  margin: auto;
   transition: transform 0.2s ease-out;
 
 }
@@ -33,6 +32,10 @@ body {
   margin-left: 1em;
 }
 
+#gitter{
+  margin-left: 1em;
+}
+
 #youtube{
   margin-left: 1em;
 }
@@ -46,6 +49,10 @@ body {
 }
 #instagram{
   margin-left: 1em;
+}
+.mt-3{
+	margin-left: auto;
+  margin-right: auto;
 }
 
 /*
