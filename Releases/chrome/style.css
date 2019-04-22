@@ -1,241 +1,296 @@
-* {
+@import  url(https://fonts.googleapis.com/css?family=Coda);
+@import  url(https://fonts.googleapis.com/css?family=Courgette);
+@import  url(https://fonts.googleapis.com/css?family=Nunito);
+
+
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
-body {
+/* Banner */
+.banner {
+  background-color: red;
+  height: 200px;
+  min-width: 340px;
+  background-image: radial-gradient(#C10000, #680202);
+}
+
+/* Card */
+.main {
+  height: 310px;
+  background-color: #FDFFFC;
+  padding-top: 35px;
+  margin-top: -50px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  border-radius: 10px 10px 5px 5px;
+  -webkit-box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.46);
+  -moz-box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.46);
+  box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.46);
   
-  margin: 0;
-  padding: 0;
-  min-width:340px;
 }
 
-.container-fluid {
-  background: url('assets/natural_paper.png') fixed no-repeat;
-  background-size: cover;
+/* Card Header */
+h2{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-family: nunito;
+    font-weight: 800;
+    color: gray;
 }
 
-#logo {
-  margin-bottom: 10px;
-  transition: transform 0.2s ease-out;
+/* Card Body */
+body {
+  min-width: 340px;
+  background-color: #FDFFFC;
 }
 
-#logo:hover {
-  transform: scale(1.02, 1.02);
+/* Button contents Starts*/
+img {
+  width: 50%;
+  padding-top: 50px;
 }
 
-#twitter{
-  margin-left: 0.8em;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-#github{
-  margin-left: 0.7em;
-}
-#gitter{
-  margin-left: 0.7em;
-}
-
-#youtube{
-  margin-left: 0.7em;
+.button em {
+  font-style: normal;
+  color: white;
+  font-size: 0.8rem;
 }
 
-#facebook{
-  margin-left: 0.7em;
-}
-
-#linkedin{
-  margin-left: 0.7em;
-}
-
-.footer {
-  display: block;
-  margin-left: 35%;
-  padding: 0;
-}
-
-/*
-#################################
-Icon Float Away
-#################################
-*/
-@-webkit-keyframes hvr-icon-float-away {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translateY(-1em);
-    transform: translateY(-1em);
-  }
-}
-@keyframes hvr-icon-float-away {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translateY(-1em);
-    transform: translateY(-1em);
-  }
-}
-@-webkit-keyframes hvr-icon-subs {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(1em,-1em);
-    transform: translate(1em,-1em);
-  }
-}
-@keyframes hvr-icon-subs {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(1em,-1em);
-    transform: translate(1em,-1em);
-  }
-}
-/* Icon Float Away */
-.hvr-icon-float-away , .hvr-icon-subs {
-  display: inline-block;
+section .center {
+  display: table-cell;
+  text-align: center;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-.hvr-icon-float-away .hvr-icon , .hvr-icon-subs .hvr-icon {
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-.hvr-icon-float-away:hover .hvr-icon, .hvr-icon-float-away:focus .hvr-icon, .hvr-icon-float-away:active .hvr-icon {
-  -webkit-animation-name: hvr-icon-float-away;
-  animation-name: hvr-icon-float-away;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-}
-.hvr-icon-subs:hover .hvr-icon, .hvr-icon-subs:focus .hvr-icon, .hvr-icon-subs:active .hvr-icon {
-  -webkit-animation-name: hvr-icon-subs;
-  animation-name: hvr-icon-subs;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
 }
 
-
-/*
-#################################
-Icon Rotate
-#################################
-*/
-.hvr-icon-rotate {
+.button {
+  position: relative;
+  background-color: #B3001B;
   display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  height: 40px;
+  width: 100px;
+  margin-left: 100px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 3px 4px 6px -4px rgba(0,0,0,0.40);
+  -moz-box-shadow: 3px 4px 6px -4px rgba(0,0,0,0.40);
+  box-shadow: 3px 4px 6px -4px rgba(0,0,0,0.40); 
 }
-.hvr-icon-rotate .hvr-icon {
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.hvr-icon-rotate:hover .hvr-icon, .hvr-icon-rotate:focus .hvr-icon, .hvr-icon-rotate:active .hvr-icon {
-  -webkit-transform: rotate(20deg);
-  transform: rotate(20deg);
+
+span,
+em,
+i {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: -5px;
+  left: 0;
+  color: #FDFFFC;
 }
 
 
-/*
-#################################
-Icon Bob
-#################################
-*/
-@-webkit-keyframes hvr-icon-bob {
-  0% {
-    -webkit-transform: translateY(-6px);
-    transform: translateY(-6px);
-  }
-  50% {
-    -webkit-transform: translateY(-2px);
-    transform: translateY(-2px);
-  }
-  100% {
-    -webkit-transform: translateY(-6px);
-    transform: translateY(-6px);
-  }
+span {
+  overflow: hidden;
 }
-@keyframes hvr-icon-bob {
-  0% {
-    -webkit-transform: translateY(-6px);
-    transform: translateY(-6px);
-  }
-  50% {
-    -webkit-transform: translateY(-2px);
-    transform: translateY(-2px);
-  }
-  100% {
-    -webkit-transform: translateY(-6px);
-    transform: translateY(-6px);
-  }
+
+
+.button em {
+  top: 0;
+  line-height: 60px;
 }
-@-webkit-keyframes hvr-icon-bob-float {
-  100% {
-    -webkit-transform: translateY(-6px);
-    transform: translateY(-6px);
-  }
+
+.button i {
+  top: 100%;
+  line-height: 60px;
 }
-@keyframes hvr-icon-bob-float {
-  100% {
-    -webkit-transform: translateY(-6px);
-    transform: translateY(-6px);
-  }
+
+.button:hover em{
+  top: -100%;
 }
-.hvr-icon-bob {
+
+.button:hover i{
+  top: 0%;
+}
+
+em,
+i {
+  transition: top 0.3s;
+}
+
+.button::before,
+.button::after {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.button:hover::before,
+.button:hover::after{
+  opacity: 1;
+  visibility: visible;
+}
+
+.button:hover::before{
+  bottom: 80px;
+}
+
+.button:hover::after{
+  bottom: 60px;
+}
+
+/* Button Content Ends */
+
+/* Social Button */
+.social{
+    margin-left: 50px;
+    margin-top:-15px;
+}
+
+/* Social Button Contents Starts */
+.social a{
+  background-color: #7B808B;
+  color: #222;
+  border-radius: 5px;
   display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  margin-left: 3px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
 }
-.hvr-icon-bob .hvr-icon {
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
+.social a.icon:before{
+  font-family: "FontAwesome", sans-serif;
+  color: #fff;
+  font-size: 20px;
 }
-.hvr-icon-bob:hover .hvr-icon, .hvr-icon-bob:focus .hvr-icon, .hvr-icon-bob:active .hvr-icon {
-  -webkit-animation-name: hvr-icon-bob-float, hvr-icon-bob;
-  animation-name: hvr-icon-bob-float, hvr-icon-bob;
-  -webkit-animation-duration: .3s, 1.5s;
-  animation-duration: .3s, 1.5s;
-  -webkit-animation-delay: 0s, .3s;
-  animation-delay: 0s, .3s;
-  -webkit-animation-timing-function: ease-out, ease-in-out;
-  animation-timing-function: ease-out, ease-in-out;
-  -webkit-animation-iteration-count: 1, infinite;
-  animation-iteration-count: 1, infinite;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-direction: normal, alternate;
-  animation-direction: normal, alternate;
+.social a.facebook:before{
+  content: '\f09a';
 }
-.fa-paper-plane:before {
-    content: "\f1d8";
-    color: #ffb362;
-  animation-iteration-count: infinite;
-  transform: translateZ(0);
-  transition-duration: 0.3s;
-      transition-property: transform;
+.social a.twitter:before{
+  content: '\f099';
 }
+.social a.github:before{
+  content: '\f09b';
+}
+.social a.linkedin:before{
+  content: '\f08c';
+}
+.social a.youtube:before{
+  content: '\f16a';
+}
+.social a.gitter:before{
+  font-family: "Font Awesome 5 Free Solid";
+  content: '\f426';
+}
+
+.social a span{
+  background: #fff;
+  color: gray;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left: -25px;
+  right: -25px;
+  padding: 2px 7px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.social a span:before{
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 5px solid #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 40px;
+}
+.social a:hover span{
+  bottom: 50px;
+  visibility: visible;
+  opacity: 5;
+  width: 100px;
+}
+
+
+
+/* hover over the icons now to see the tooltips! */
+.social a.facebook:hover{
+  background-color: #4183d7;
+  color: #bfbfbf;
+}
+.social a.facebook span{
+  color: #4183d7;
+}
+.social a.twitter:hover{
+  background-color: #19b5fe;
+  color: #fff;
+}
+.social a.twitter span{
+  color: #19b5fe;
+}
+.social a.github:hover{
+  background-color: #000;
+  color: #fff;
+}
+.social a.github span{
+  color: #000;
+}
+.social a.linkedin:hover{
+  background-color: #255C99;
+  color: #fff;
+}
+.social a.linkedin span{
+  color: #255C99;
+}
+.social a.youtube:hover{
+  background-color: #f22613;
+  color: #fff;
+}
+.social a.youtube span{
+  color: #f22613;
+}
+
+/*.social a.gitter:hover{
+  background-color: #F0386B;
+  color: #fff;
+}
+.social a.gitter span{
+  color: #f22613;
+} */
+
+/* Social Button Content Ends */
+
+/* Footer */
+.footer{
+    margin-left: 32%;
+    margin-top: -25px;
+}
+
+/* Footer Contents */
+.footer a,p{
+    font-size: .9em;
+    color: gray;
+    margin-bottom: -10px;   
+}
+
