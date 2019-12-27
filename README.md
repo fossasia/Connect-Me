@@ -1,51 +1,43 @@
 # Connect Me
 
-#### ConFASIA = Connect + FOSSASIA :fire:
+<p align="center">
+<b>Connect-Me &mdash; Chrome and Firefox Extension for connecting with FOSSASIA</b><br><br>
+    <img alt="Connect-Me Logo" src="/assets/Connect-Me.png"><br>
+<b>Click <a href="#Demo">here</a> to see the demo.<br>
+  Click <a href="https://github.com/fossasia/Connect-Me/wiki">here</a> for documentation.<br><br></b>
+</p>
 
-![fossasia](https://user-images.githubusercontent.com/25322672/54020775-99194680-41b4-11e9-818d-0e6071bf998d.jpg)
+#### Features (Current Build)
 
+Helps the user to star all the FOSSASIA, OpnTec and the sister project repositories, helps the user to follow core members and founders of FOSSASIA community, it helps the user to easily become a member of the FOSSASIA community, helps the user to explore the FOSSASIA projects, helps the user to connect with FOSSASIA on various social media platforms.
 
-> A **Chrome and Firefox Extension** for connecting with **@fossasia** :rocket:
-
-
-## Current Prototype :
-
-### StarFOSS (beta)
-
-![icon](https://user-images.githubusercontent.com/5800726/34366221-d6332962-eabe-11e7-8379-7044206e9c30.png)
-
-#### Features :
-
-* Helps the User to **Star all the FOSSASIA, OpnTec and the Sister Project Repositories** :tada::tada:
-* Helps the User to **Follow core members and founders of FOSSASIA community** :fire::fire:
-* Helps the User to **Easily become a member of the FOSSASIA Community** :blush:
-* Helps the User to **Explore the FOSSASIA Projects** :sparkles:
-* Helps the User to **Connect with FOSSASIA over Twitter** :heart:
-* Helps the User to **Connect with FOSSASIA over Facebook** :heart:
-* Helps the User to **Connect with FOSSASIA over LinkedIn** :heart:
-* Helps the User to **Connect with FOSSASIA over Youtube** :heart:
-* Helps the User to **Connect with FOSSASIA over Instagram** :heart:
-
-
-
-#### Demo :
+#### Demo
 
 ![demo](/assets/StarFOSSv1_demo.gif)
 
-#### Installation :
+#### Installation
 
-The **StarFOSS Chrome and Firefox Extension** can be easily deployed on all of the Chrome and Firefox versions. **Installation instructions** have been provided below.
+The **Connect-Me Web Extension** can be easily deployed on all of the Chrome and Firefox versions. Installation instructions are provided below.
 
 * **[Local Installation](/Releases/Installation.md)**
 
-## TODO :
+## Development History
+
+| Serial | Version       | Prototype  |
+| ------ |:-------------:| ----------:|
+| 1      | Beta          | ![](/assets/starfoss-beta.jpg) |
+| 2      | v1 (Chrome)   |   -add-                        |
+| 3      | v1 (Firefox)  |   -add-                        |
+
+## TODO
 
 - [ ] Adding an in-built **Subscribe** button. [Issue #5](https://github.com/fossasia/Connect-Me/issues/5)
-- [ ] Integrating Orgmanager's`REST API` for direct Membership. [Issue #4](https://github.com/fossasia/Connect-Me/issues/4)
+- [ ] Integrating Orgmanager's `REST API` for direct Membership. [Issue #4](https://github.com/fossasia/Connect-Me/issues/4)
 - [ ] Integrating **Twitter, Facebook, Youtube, LinkedIn API** for Following, Liking, and Pinning respective **FOSSASIA Channels**.
 
 
 ## Maintainers
+
 The project is maintained by :
 - Piyush Raj ([@0x48piraj](https://github.com/0x48piraj))
 - Mario Behling ([@mariobehling](http://github.com/mariobehling))
@@ -53,6 +45,7 @@ The project is maintained by :
 ---
 
 ## Developers
+
 <table>
 <tr>
 <td>
@@ -67,4 +60,4 @@ The project is maintained by :
 </p>
 </td>
 </tr>
-  </table>
+</table>
