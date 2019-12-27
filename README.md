@@ -25,9 +25,9 @@ The **Connect-Me Web Extension** can be easily deployed on all of the Chrome and
 
 | Serial | Version       | Prototype  |
 | ------ |:-------------:| ----------:|
-| 1      | Beta          | ![](/assets/starfoss-beta.jpg) |
-| 2      | v1 (Chrome)   |   -add-                        |
-| 3      | v1 (Firefox)  |   -add-                        |
+| 1      | Beta          | ![](/assets/starfoss-beta.jpg)       |
+| 2      | v1 (Chrome)   |  ![](/assets/connect-me-chrome.png)  |
+| 3      | v1 (Firefox)  |   -add-                              |
 
 ## TODO
 
