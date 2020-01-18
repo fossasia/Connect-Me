@@ -2,7 +2,7 @@
 
 <p align="center">
 <b>Connect-Me &mdash; Chrome and Firefox Extension for connecting with FOSSASIA</b><br><br>
-    <img alt="Connect-Me Logo" src="/assets/Connect-Me.png"><br>
+    <img alt="Connect-Me Logo" src="/static/Connect-Me.png" width="400"><br>
 <b>Click <a href="#Demo">here</a> to see the demo.<br>
   Click <a href="https://github.com/fossasia/Connect-Me/wiki">here</a> for documentation.<br><br></b>
 </p>
@@ -13,36 +13,34 @@ Helps the user to star all the FOSSASIA, OpnTec and the sister project repositor
 
 #### Demo
 
-![demo](/assets/StarFOSSv1_demo.gif)
+![demo](/static/StarFOSSv1_demo.gif)
 
 #### Installation
 
-The **Connect-Me Web Extension** can be easily deployed on all of the Chrome and Firefox versions. Installation instructions are provided below.
+The web-extension can be easily deployed on all of the Chrome and Firefox versions. Installation instructions are provided below.
 
-* **[Local Installation](/Releases/Installation.md)**
+* **[Local Installation](Installation.md)**
 
 ## Development History
 
 | Serial | Version       | Prototype  |
 | ------ |:-------------:| ----------:|
-| 1      | Beta          | ![](/assets/starfoss-beta.jpg)       |
-| 2      | v1 (Chrome)   |  ![](/assets/connect-me-chrome.png)  |
-| 3      | v1 (Firefox)  |   -add-                              |
+| 1      | Beta          | <img alt="Connect-Me Logo" src="/static/starfoss-beta.jpg" width="300">      |
+| 2      | v1 (Chrome)   | <img alt="Connect-Me Logo" src="/static/connect-me-chrome.png" width="300">  |
+| 3      | v1 (Firefox)  |   -add-                                                                      |
 
 ## TODO
 
-- [ ] Adding an in-built **Subscribe** button. [Issue #5](https://github.com/fossasia/Connect-Me/issues/5)
+- [x] ~Adding an in-built **Subscribe** button. [Issue #5](https://github.com/fossasia/Connect-Me/issues/5)~
 - [ ] Integrating Orgmanager's `REST API` for direct Membership. [Issue #4](https://github.com/fossasia/Connect-Me/issues/4)
 - [ ] Integrating **Twitter, Facebook, Youtube, LinkedIn API** for Following, Liking, and Pinning respective **FOSSASIA Channels**.
 
 
 ## Maintainers
 
-The project is maintained by :
+The project is maintained by &mdash;
 - Piyush Raj ([@0x48piraj](https://github.com/0x48piraj))
 - Mario Behling ([@mariobehling](http://github.com/mariobehling))
-
----
 
 ## Developers
 
@@ -61,3 +59,7 @@ The project is maintained by :
 </td>
 </tr>
 </table>
+
+## Thanks
+
+As with all FOSSASIA open-source projects, this one is also the product of community and we would like to thank Syed Muazzam ([@_syed_muazzam](https://www.instagram.com/_syed_muazzam/)) for creating logo mockups for this project. We love you!
